@@ -1,0 +1,5 @@
+#+TITLE: Tareas relacionadas a la vida personal.
+#+AUTHOR: Augusto Riedinger.
+
+* Piano:
+*** TODO Contactar profesores y averiguar disponibilidad. SCHEDULED: <2021-12-27 lun 10:00>

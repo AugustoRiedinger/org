@@ -1,0 +1,99 @@
+#+TITLE: Org Mode Basics in Doom Emacs
+#+DESCRIPTION: An org document to demostrate the basics of org mode in Doom Emacs.
+#+AUTHOR: Augusto Riedinger
+
+* Create a new headline with just an '*':
+** Bullet with two '**'.
+*** Level 3 '***'.
+**** Level 4.
+***** Level 5.
+****** Level 6.
+
+* Getting started in Org Mode:
+
+The documentation is available with M-x org-info.
+
+** org-toggle-heading: SPC-m-h
+
+** org-toggle-item: SPC-m-i
+
+  + Unordered item 1. Press C-Return to initiate a second item.
+  + Unordered item 2.
+  + Unordered item 3.
+  + It's the same to use dash or plus.
+
+  1. It's also possible to create a numbered list.
+  2. Just time the first item followed by a period.
+  3. And the rest of the items with C-Return.
+
+* Motion:
+
+** Next/prev heading: gj / gk.
+
+* Structure editing:
+
+** Promote/demote heading: M-h / M-l.
+** Insert new heading after subtree in the same level: C-RET.
+** Promote/demote entire subtree: M-S-h / M-S-l.
+** Move subtree or list item up/down: M-j / M-k.
+** Move list item up/down but not subtree: M-S-j / M-S-k.
+
+* Advanced EVIL-Mode editing:
+
+** Select an element: vae.
+** Delete an element: dae.
+** Select a subtree: vaR.
+** Delete a subtree: daR.
+** Yank a subtree: yiR.
+
+* Insert system snippets:
+
+** SPC-i-s.
+** Current time: Fri Dec 24 15:57:19 2021.
+
+* TODO lists:
+
+** TODO example 1.
+** TODO example 2.
+** Mark something as TODO: SPC-m-t-t.
+** Set tags with: SPC-m-q. :ROBERTO:
+** To remove TODO: S-LEFT.
+** To undo remove TODO: S-RIGHT.
+** Toggle the TODO state: SPC-m-t.
+** Org schedule: SPC-m-d-s.
+SCHEDULED: <2021-12-24 vie 16:00-18:00>
+**** Schedule example.
+**** Events that are scheduled everyday: ++1d.
+
+* Checkboxes: [0/0][0%]
+
+** To create a checkbox use empty squared brackets: [ ].
+** [X] Checkbox item 1.
+** [ ] Checkbox item 2.
+** [X] Checkbox item 3.
+** [ ] Checkbox item 4.
+** To check items: RET.
+** Org-agenda: SPC-o-a.
+** To keep a tally use squared brackets with a dash or % inside: [/] [%].
+
+* Tables:
+
+** Separate columns with the pipe symbol: |.
+** Go forward/backwards by cell: TAB / S-TAB.
+** Make org-table headline: SPC m b -.
+** Duplicate a field in the cell below: S-RET.
+
+| ONE     | TWO    | THREE  | FOUR   |
+|---------+--------+--------+--------|
+| Item 1  | Item 2 | Item 3 | Item 4 |
+| Item 5  | Item 3 | Item 4 | Item 5 |
+| Item 9  | Item 4 | Item 5 | Item 6 |
+| Item 13 | Item 5 | Item 6 | Item 7 |
+
+** Table motions:
+
+*** Move current row up/down/right/left: M-k/M-j/M-h/M-l.
+*** Insert new column: M-S-l.
+*** Delete current columns: M-S-h.
+*** Insert new row: M-S-j.
+*** Delete current row: M-S-k.

@@ -1,0 +1,35 @@
+#+TITLE: Organización de tareas relacionadas con la facultad.
+#+AUTHOR: A. Riedinger.
+
+* GIMAP
+** TODO Probar el funcionamiento de openfoam-org con projectos realizados en Debian.
+** TODO Probar rodFoam con openfoam-com.
+** TODO Investigar sobre el condicionamiento de BC en blockMeshDict.
+
+* CIV Física I
+** CLASS Comienzo segunda parte CIV SCHEDULED: <2022-01-31 18:00-20:00>
+** TODO Preparar guía dinámica.
+** TODO Preparar guía trabajo y energía.
+
+* Teoría de Circuitos II
+** PROJ Filtros TIIR SCHEDULED: <2022-03-31 jue 23:59> [0/5][0%]
+   - [ ] Marco teórico en LATEX.
+   - [ ] Desarrollo de los ejercicios.
+   - [ ] Programa en C.
+   - [ ] Hardware / Circuito protección.
+   - [ ] Finalizar el informe.
+
+* Técnicas Digitales II
+** PROJ SATDAC/ERDYTC SCHEDULED: <2022-03-11 vie 18:00> [0/8][0%]
+   - [-] Probar Blackpill.
+   - [ ] Probar Bluepill.
+   - [ ] Desarrollar algoritmo teclado.
+   - [ ] Desarrollar algoritmo menues por MMFIFO.
+   - [ ] Desarrollar algoritmo sensado temperatura.
+   - [ ] Probar modulos RF.
+   - [ ] Desarrollar algoritmo comunicacion RF.
+   - [ ] Unir todos los algoritmos.
+
+* Técnicas Digitales I
+** FINAL FINAL TDI
+   - [ ] Contactar chino para estudiar.
