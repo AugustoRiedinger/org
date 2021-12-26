@@ -13,7 +13,7 @@
 
 * Teoría de Circuitos II
 ** PROJ Filtros TIIR SCHEDULED: <2022-03-31 jue 23:59> [0/5][0%]
-   - [ ] Marco teórico en LATEX.
+   - [-] Marco teórico en LATEX.
    - [ ] Desarrollo de los ejercicios.
    - [ ] Programa en C.
    - [ ] Hardware / Circuito protección.

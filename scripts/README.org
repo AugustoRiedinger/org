@@ -1,0 +1,33 @@
+#+TITLE: SCRIPTS
+
+* cwd - Copy Working Directory
+
+Copy the path to your current directory to the system's clipboard.
+
+ - Dependecies: xclip
+
+* fm6000
+
+Script from the AUR to show system information (similar to neofetch).
+
+* foam
+
+Used to launch OpenFOAM from within the fish shell. It needs .bashrc to contain the path and env variables to configure OpenFOAM.
+
+* gitToken
+
+Used to copy current token to the system's clipboard. The token must be on the .git-token file (it currently contains an old token).
+
+ - Dependecies: xclip
+
+* install*
+
+Recipes to install current software.
+
+* pacmanBasics
+
+Prints basic pacman commands in the terminal.
+
+* rename*
+
+Used to rename pictures or pdfs in sequential order (0001.jpg, 0002.jpg ..., 000x.jpg).
